@@ -9,7 +9,7 @@ class BookSearch extends Component {
   state = {
     searchBooks: [],
     query: "",
-  };
+  }
 
   searchForBooks = _.debounce((query) => {
     if (query.length > 0) {
@@ -39,7 +39,7 @@ class BookSearch extends Component {
         query: event.target.value,
       },
       () => this.searchForBooks(this.state.query)
-    );
+    )
   };
 
   render() {

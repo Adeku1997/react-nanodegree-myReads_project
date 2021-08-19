@@ -9,9 +9,8 @@ class SearchButton extends Component {
               
             </button>
           </div>
-        );
+        )
     }
-
 }
 
 export default SearchButton;

@@ -32,7 +32,7 @@ import '../App.css'
                  </div>
                </li>)}
                </ol>
-           </div>;
+           </div>
 
      }
  }

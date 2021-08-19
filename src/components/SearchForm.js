@@ -11,7 +11,7 @@ class SearchForm extends Component {
           onChange={this.props.onUpdateQuery}
         />
       </div>
-    );
+    )
   }
 }
 

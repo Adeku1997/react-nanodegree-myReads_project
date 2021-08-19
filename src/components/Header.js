@@ -6,8 +6,7 @@ class Header extends Component {
             <h1>MyReads</h1>
           </div>
           )
-          
-    }
+        }
 }
 
 export default Header;
