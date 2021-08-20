@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import * as BooksAPI from "../BooksAPI";
 import SearchForm from "./SearchForm";
 import SearchResults from "./SearchResults";
 import _ from 'lodash';
-import {Link} from 'react-router-dom'
+
 
 class BookSearch extends Component {
   state = {
@@ -17,7 +18,21 @@ class BookSearch extends Component {
         if (books.error) {
           this.setState({ searchBooks: [] });
         } else {
-          this.setState({ searchBooks: books });
+          const shelfMap={
+
+          }
+          for (const book of this.props.books){
+            shelfMap[book.id]=book.shelf
+          }
+          const searchBooks=books.map(book=>{
+            const shelf=shelfMap[book.id] || "none"
+            return {
+              ...book,
+              shelf,
+
+            }
+          })
+          this.setState({ searchBooks });
         }
       });
     } else {
