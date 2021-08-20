@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
  
-class SearchButton extends Component {
-    render() {
+function SearchButton(){
+    
         return( <div className="open-search">
             <button>
               Add a book
@@ -10,7 +10,7 @@ class SearchButton extends Component {
             </button>
           </div>
         )
-    }
+    
 }
 
 export default SearchButton;
