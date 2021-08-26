@@ -10,11 +10,6 @@ It also allow you to search for books based on title and author.
 
 This app is the first of three projects required for [Udacity's React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
 
-You can read a detailed walk-through of how this app was constructed in  [MyReads Code Notes](https://james-priest.github.io/reactnd-project-myreads/).
-
-
-
-You can see [screenshots](#screenshots) below.
 
 ## Installation
 
