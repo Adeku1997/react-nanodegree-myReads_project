@@ -21,7 +21,7 @@ You can see [screenshots](#screenshots) below.
 Clone the repository, change directories, and use NPM to install the dependencies.
 
 ```bash
-$ git clone https://github.com/james-priest/reactnd-project-myreads.git
+$ git clone https://github.com/Adeku1997/react-nanodegree-myReads_project
 $ cd reactnd-project-myreads
 $ npm install
 ```
@@ -36,8 +36,3 @@ The project can be viewed in the browser at
 
 - [http://localhost:3000](http://localhost:3000)
 
-## Screenshots
-
-![screenshot1](./docs/assets/images/p1.jpg)
-
-![screenshot2](./docs/assets/images/p9.jpg)
